@@ -1,0 +1,33 @@
+@import '../../globalStyle.scss';
+.form-summary {
+  background-color: #f5f5f5;
+  min-height: 70vh;
+  width: 70vw;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.845);
+
+  h2 {
+    color: #333;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: #47484a;
+    }
+  }
+}
